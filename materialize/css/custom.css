@@ -1,0 +1,36 @@
+header, main, footer {
+  padding-left: 300px;
+}
+
+a.brand-logo.hide-on-med-and-down.left {
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+i.circle {
+  font-style: normal;
+  font-weight: bold;
+}
+
+ul.collection.help {
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+}
+
+.collection {
+  margin: 0;
+}
+
+.material-icons.blue-text {
+	margin-right: 20px;
+}
+
+@media only screen and (min-width:990px) and (max-width:1366px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+  body {
+ 	width: calc(100% - 300px);
+ 	float: right;
+  }
+}

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/custom.css"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+  <nav>
+    <ul id="slide-out" class="side-nav fixed">
+      <li>
+        <div class="userView">
+          <div class="background">
+            <img src="pic/bg.png">
+          </div>
+          <img src="pic/profile.png" alt class="circle responsive-img valign profile-image">
+          <a href="#!" class="black-text name">John Dev</a>
+          <a href="#!" class="black-text email">john.dev@gmail.com</a>
+        </div>
+      </li>
+      <li class="active">
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">inbox</i>
+          <span class="black-text"> All Inboxes </span>
+          <span class="badge right">99</span>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">inbox</i>
+          <span class=" black-text"> Primary </span>
+
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">group</i>
+          <span class=" black-text"> Socials </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">local_offer</i>
+          <span class="black-text"> Promotions </span>
+          <span class="new badge green right">4</span>
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a class="subheader">All labels</a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">star_rate</i>
+          <span class="black-text"> Starred </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">label</i>
+          <span class="black-text"> Important </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">send</i>
+          <span class="black-text"> Sent </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">mail_outline</i>
+          <span class="black-text"> Outbox </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">insert_drive_file</i>
+          <span class="black-text"> Drafts </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">mail</i>
+          <span class="black-text"> All mails </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">error</i>
+          <span class="black-text"> Spam </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">delete</i>
+          <span class="black-text"> Trash </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons grey-text">label</i>
+          <span class="black-text"> ส่วนตัว </span>
+        </a>
+      </li>
+      <li class="divider"></li>
+
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">settings</i>
+          <span class="black-text"> Settings </span>
+        </a>
+      </li>
+      <li>
+        <a href="#!" class="waves-effect">
+          <i class="material-icons">help</i>
+          <span class="black-text"> Help & feedback </span>
+        </a>
+      </li>
+
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse">
+      <i class="material-icons">menu</i>
+    </a>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo hide-on-med-and-down left"> All Inboxes </a>
+      <form class="right">
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+      </form>
+    </div>
+
+  </nav>
+</head>
+
+<body>
+
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!" class="black-text">Add from Contacts</a></li>
+    <li><a href="#!" class="black-text">Save draft</a></li>
+    <li><a href="#!" class="black-text">Discard</a></li>
+    <li><a href="#!" class="black-text">Settings</a></li>
+    <li><a href="#!" class="black-text">Help & feedback</a></li>
+  </ul>
+
+
+  <div>
+    <ul class="collection">
+      <li class="collection-item avatar">
+        <i class="circle red lighten-1">A</i>
+        <span class="title">Amazon.com</span>
+        <p class="grey-text">Summer sale is now going on.</p>
+        <div  class="secondary-content">
+          <span class="blue-text ultra-small">12:10pm</span>
+          <br />
+          <i class="material-icons grey-text right">star_border</i>
+        </div>
+      </li>
+      <li class="collection-item avatar">
+        <img src="pic/profile.png" alt class="circle">
+        <span class="title">Joe Dev</span>
+        <p class="grey-text">Hay John.</p>
+        <div  class="secondary-content">
+          <span class="blue-text ultra-small">12:10pm</span>
+          <br />
+          <i class="material-icons grey-text right">star_border</i>
+        </div>
+      </li>
+      <li class="collection-item avatar">
+        <i class="circle red lighten-1">A</i>
+        <span class="title">Amazon.com</span>
+        <p class="grey-text">Summer sale is now going on.</p>
+        <div  class="secondary-content">
+          <span class="blue-text ultra-small">12:10pm</span>
+          <br />
+          <i class="material-icons grey-text right">star_border</i>
+        </div>
+      </li>
+      <li class="collection-item avatar">
+        <img src="pic/profile.png" alt class="circle">
+        <span class="title">Joe Dev</span>
+        <p class="grey-text">Hay John.</p>
+        <div  class="secondary-content">
+          <span class="blue-text ultra-small">12:10pm</span>
+          <br />
+          <i class="material-icons grey-text right">star_border</i>
+        </div>
+      </li>
+      <li class="collection-item avatar">
+        <i class="circle red lighten-1">A</i>
+        <span class="title">Amazon.com</span>
+        <p class="grey-text">Summer sale is now going on.</p>
+        <div  class="secondary-content">
+          <span class="blue-text ultra-small">12:10pm</span>
+          <br />
+          <i class="material-icons grey-text right">star_border</i>
+        </div>
+      </li>
+      <li class="collection-item avatar">
+        <img src="pic/profile.png" alt class="circle">
+        <span class="title">Joe Dev</span>
+        <p class="grey-text">Hay John.</p>
+        <div  class="secondary-content">
+          <span class="blue-text ultra-small">12:10pm</span>
+          <br />
+          <i class="material-icons grey-text right">star_border</i>
+        </div>
+      </li>
+    </ul>
+
+    <div class="fixed-action-btn">
+      <a href="#modal1" class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal bottom-sheet">
+      <div class="modal-content">
+        <div class="nav-wrapper">
+          <ul>
+            <a href="#" class="brand-logo left" style="font-size: 20px; margin-left: 15px;">Compose</a>
+            <li class="right">
+              <a href="#">
+                <i class="material-icons"  style="margin-left: 15px;">attachment</i>
+              </a>
+              <a href="#">
+                <i class="material-icons"  style="margin-left: 15px;">send</i>
+              </a>
+              <a class="dropdown-button" data-beloworigin="true" href="#!" data-activates="dropdown1">
+                <i class="material-icons right">more_vert</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="row" style="background-color: white;">
+          <form class="col s12">
+            <div class="row">
+              <div class="col s12">
+                <div class="col s1 grey-text" style="margin-top: 30px; padding-left: 0;">
+                  From
+                </div>
+                <div id="send" type="email" class="input-field col s11 right">
+                  <input id="send" type="email" class="validate"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col s12">
+                  <div class="col s1 grey-text" style="margin-top: 10px; padding-left: 0;">
+                    To
+                  </div>
+                  <div id="receiver" type="email" class="chips col s11 right"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input id="title-mail" type="text" class="validate">
+                  <label for="email">Subject</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Compose email</label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">SEND</a>
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/customjs.js"></script>
+  </body>
+  </html>
