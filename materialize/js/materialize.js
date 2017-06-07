@@ -873,7 +873,10 @@ if (jQuery) {
   }; // End dropdown plugin
 
   $(document).ready(function(){
-    $('.dropdown-button').dropdown();
+    $('.dropdown-button').dropdown({
+      belowOrigin: false,
+      constrainWidth: true
+    });
   });
 }( jQuery ));
 ;(function($) {
